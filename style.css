@@ -1,0 +1,316 @@
+body{
+        font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.first-page{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/028/233/303/small/refreshing-cup-of-hot-coffee-on-a-table-isolated-on-black-background-copy-space-cozy-warm-mood-ai-generative-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header-title{
+    color: orange;
+    margin-left: 15px;
+    font-size: 50px;
+    flex: 1;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.link:hover{
+    color: orange ;
+}
+.restaurant{
+    text-align: center;
+}
+.welcome-page{
+    color: orange;
+    margin-top: 150px;
+}
+.welcome-page1{
+    color: white;
+    font-size: 100px;
+    margin-top: 10px;
+}
+.welcome-page2{
+    color: white;
+    margin-top: -50px;
+}
+.title-1, .title-3{
+    text-align: center;
+    font-size: 30px;
+    color:coral;
+    margin-top: 80px;
+}
+.title-2, .title-4{    
+    text-align: center;
+    font-size: 60px;
+    margin-top: -20px;
+}
+.first-section{
+    width: 25%;
+}
+.section{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.image-1{
+    width: 450px;
+    height: 550px;
+}
+.paragraph-1 li{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-submit-1{
+    background-color: black;
+    color: white;
+    padding: 8px 28px;
+    font-size: 20px;
+}
+.btn-submit-2{
+    background-color:goldenrod;
+    color: black;
+    padding: 8px 28px;
+    font-size: 20px;
+    border: 1px solid darksalmon;
+}
+.topic{
+    font-size: 50px;
+}
+.image-2{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.first-row, .second-row{
+    display: flex;
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+.beans-page{
+    margin-left: 20px;
+}
+.section-1{
+    margin-top: 100px;
+}
+.second-page, .menu-page{
+    margin-top: 50px;
+}
+.fourth-page{
+    background: url('https://venezianocoffee.com.au/cdn/shop/articles/How_to_Choose_the_Best_Coffee_Beans_for_Espresso_1600x.png?v=1685620458');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.offer-one{
+    font-size: 85px;
+    color:goldenrod;
+}
+.offer-two{
+    font-size: 49px;
+    margin-top: -40px;
+}
+.offer-three{
+    font-size: 30px;
+    margin-top: -20px;
+}
+.email{
+    padding: 20px 50px;
+}
+.button-submit{
+    padding: 20px 20px;
+    margin-left: -15px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+.image-3{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.first-column{
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.first-column:hover {
+    background: rgba(190, 185, 185, 0.4);
+    padding: 10px;
+    border-radius: 10px;
+}
+.topic-2{
+    font-size: 20px;
+}
+.paragraph-2{
+    font-size: 15px;
+    color: gray;
+}
+.fifth-page-content{
+    background: url('https://venezianocoffee.com.au/cdn/shop/articles/How_to_Choose_the_Best_Coffee_Beans_for_Espresso_1600x.png?v=1685620458');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    color: white;
+    margin-top: 100px;
+    width: 1000px;
+    gap: 30px;
+    background-position: center;
+    margin-left: 15%;
+}
+.side-two-input-1{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.side-two-input-2{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.side-two-input-3{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.side-two-input-4{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.side-two-input-5{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.side-one{
+    width: 450px;
+}
+.side-one-text{
+    font-size: 50px;
+    color: orange;
+}
+.side-one-text-two{
+    font-size: 40px;
+    margin-top: -20px;
+}
+.side-one-text-three{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.paragraph-4{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.side-two-topic{
+    font-size: 25px;
+    text-align: center;
+}
+.book-now{
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: orange;
+    border: 1px solid orange;
+    font-size: 15px;
+}
+.side-two{
+    margin-left: 100px;
+}
+.bold{
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 50%;
+}
+.sixth-page{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+.client-feedback{
+    display: flex;
+    gap: 50px;
+    margin-top: 5%;
+    overflow-x: auto;
+    align-items: center;
+    width: 100%;
+}
+.first-client{
+    width: 1000px;
+}
+.client-image-1{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.client-maha{
+    display: flex;
+    gap: 20px;
+}
+.seventh-page{
+    background: url('https://venezianocoffee.com.au/cdn/shop/articles/How_to_Choose_the_Best_Coffee_Beans_for_Espresso_1600x.png?v=1685620458');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 40px 30px 40px;
+    color: white;
+    margin-top: 100px;
+}
+.footer-image{
+    display: flex;
+    width: 80%;
+    gap:20%;
+}
+footer{
+    margin-top: 40px;
+    text-align: center;    
+}
+hr{
+    margin-top: 50px;
+}
